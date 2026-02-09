@@ -1,0 +1,21 @@
+# Environments
+.venv
+.venv_*
+__pycache__/
+*.pyc
+
+# Data (never commit)
+data/
+*.cwa
+*.cwa.gz
+
+# Outputs
+results/
+*.png
+*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
