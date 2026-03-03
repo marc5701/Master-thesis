@@ -19,3 +19,22 @@ results/
 
 # OS
 .DS_Store
+
+# Envs
+.venv/
+.venv39/
+.python-version
+
+# Data & results (symlinks to OAK)
+data
+results
+logs/
+
+# Local artifacts
+*.xlsx
+*.csv
+requirements_py312_freeze.txt
+requirements_py39_freeze.txt
+
+# Claude / containers
+run_claude_container.sh
