@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 
 # If already in another venv, deactivate it
 if [[ -n "${VIRTUAL_ENV:-}" ]]; then
